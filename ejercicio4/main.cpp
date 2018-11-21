@@ -26,6 +26,11 @@ int main()
             if((edad>=14) && (edad<=17)){
             cout << nombre << " "<< apellido << " tiene " << edad << " años" << endl
                 << "Pertenece al Bachillerato Unificado";
+            }else{
+            if(edad>17){
+                cout << "Edad fuera de rango.";
+            }
+
             }
         }
 
