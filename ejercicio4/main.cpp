@@ -15,17 +15,16 @@ int main()
     cin >> edad;
     if(edad<10){
         cout << nombre << " " << apellido << endl
-                << "con: " << edad << " años" << endl
+                << "con: " << edad << " años." << endl
                 << "Pertenece al Basica.";
     }else{
         if((edad>=10) && (edad<14)){
             cout << nombre << " "<< apellido << endl
-                << "con: " << edad << " años" << endl
+                << "tiene " << edad << " años" << endl
                 << "Pertenece al Basica Superior";
         }else{
             if((edad>=14) && (edad<=17)){
-            cout << nombre << " "<< apellido << endl
-                << "con: " << edad << " años" << endl
+            cout << nombre << " "<< apellido << " tiene " << edad << " años" << endl
                 << "Pertenece al Bachillerato Unificado";
             }
         }
